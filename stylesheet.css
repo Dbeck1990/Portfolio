@@ -1,13 +1,17 @@
 body{
-   background-color: brown;
-    margin:0 auto;
-    padding:0;
+    background-image: url('C:/Users/Daniel/Documents/Website_new/Images/apple_design_1920_1200.jpg');
+   background-position: center top;
+   width:100%;
+   height:60%;
+   padding:0;
+    margin:0;
 }
 header{
-  background-color: grey;
+
   width:100%;
   margin:0 auto;
    border:1px black solid;
+
 
 }
 nav{
@@ -29,7 +33,14 @@ li{
      border:1px black solid;
 
 }
+img.align-center{
+    display:block;
+    margin:1%;
+    width:auto;
+    height:auto;
+    float:left;
 
+}
 #content{
   background-color: blue;
   width:80%;
@@ -38,11 +49,13 @@ li{
      border:1px black solid;
 }
 #feature{
-  background-color: orange;
+    background-image: url('C:/Users/Daniel/Documents/Website_new/Images/apple_design_1920_1200.jpg');
+   background-position: center top;
   width:100%;
   height:80%;
   margin:0 auto;
      border:1px black solid;
+    
 }
 #article1{
    background-color: pink;
@@ -54,11 +67,12 @@ li{
 }
 #article2{
    background-color: white;
-    width:31%;
+    width:auto;
     height:70%;
     float:left;
     margin:1%;
     border:1px black solid;
+    padding:1%;
 }
 #article3{
    background-color: silver;
